@@ -1,0 +1,37 @@
+{
+  "_vendor-620a2714.js": {
+    "file": "assets/vendor-620a2714.js"
+  },
+  "node_modules/.pnpm/emoji-mart@5.5.2/node_modules/emoji-mart/dist/module.js": {
+    "file": "assets/module-2bfc16a8.js",
+    "isDynamicEntry": true,
+    "src": "node_modules/.pnpm/emoji-mart@5.5.2/node_modules/emoji-mart/dist/module.js"
+  },
+  "src/frames/messenger/WidgetMessenger.svelte": {
+    "dynamicImports": [
+      "node_modules/.pnpm/emoji-mart@5.5.2/node_modules/emoji-mart/dist/module.js"
+    ],
+    "file": "assets/WidgetMessenger-dcf333b1.js",
+    "imports": [
+      "_vendor-620a2714.js",
+      "src/main.ts"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/frames/messenger/WidgetMessenger.svelte"
+  },
+  "src/main.ts": {
+    "dynamicImports": [
+      "src/frames/messenger/WidgetMessenger.svelte"
+    ],
+    "file": "assets/main-58af301c.js",
+    "imports": [
+      "_vendor-620a2714.js"
+    ],
+    "isEntry": true,
+    "src": "src/main.ts"
+  },
+  "style.css": {
+    "file": "assets/style-0da39bb7.css",
+    "src": "style.css"
+  }
+}
